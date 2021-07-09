@@ -12,7 +12,7 @@
 5. Mở terminal (cmd)
 
 6. Gõ lệnh: 
-    - npm install --global yarn
+    - npm install --global yarn (Nếu đã cài yarn thì không cần thực hiện câu lệnh này)
     - yarn
     - yarn start
 
