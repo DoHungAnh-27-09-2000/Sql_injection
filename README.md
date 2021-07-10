@@ -9,7 +9,7 @@
 
 4. Mở project bằng Vscode
 
-5. Vào file database.js (model/database.js) chỉnh sửa "username" (dòng 5) và "password" (dòng 6) - chính là username và password của database cần kết nối
+5. Vào file database.js (src/model/database.js) chỉnh sửa "username" (dòng 5) và "password" (dòng 6) - chính là username và password của database cần kết nối
 
 6. Mở terminal (cmd)
 
