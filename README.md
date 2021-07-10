@@ -7,7 +7,7 @@
 
 3. Import database trong thư mục database vào mysql
 
-4. Mở ứng dụng bằng vscode
+4. Mở project bằng Vscode
 
 5. Vào file database.js (model/database.js) chỉnh sửa "username" (dòng 5) và "password" (dòng 6) - chính là username và password của database cần kết nối
 
