@@ -32,4 +32,4 @@
 
 10. Note:
     - Trường hợp xảy ra lỗi khi chạy "yarn start" xem tại link "https://stackoverflow.com/questions/50093144/mysql-8-0-client-does-not-support-authentication-protocol-requested-by-server"
-    - Đằng sau mỗi dấu -- ở phần 8 luôn có 1 dấu cách
+    - Đằng sau mỗi dấu -- ở phần 9 luôn có 1 dấu cách
