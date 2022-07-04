@@ -6,7 +6,7 @@ const route = require('./routes/mainRoute');
 const cookieParser = require('cookie-parser')
 
 const app = express();  
-const port = 3000;
+const port = process.env.PORT || 5000;
 
 // Sử dụng express-handlebars
 app.engine('hbs', handlebars({extname: '.hbs'}));
